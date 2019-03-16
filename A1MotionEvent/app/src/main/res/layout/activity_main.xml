@@ -13,4 +13,9 @@
         android:layout_height="wrap_content"
         android:text="Hello World!" />
 
+    <me.bello.a1motionevent.MyViewGroup
+        android:id="@+id/my_view_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary" />
 </LinearLayout>

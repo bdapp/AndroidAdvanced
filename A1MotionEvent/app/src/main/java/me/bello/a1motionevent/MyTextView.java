@@ -33,15 +33,15 @@ public class MyTextView extends TextView {
     public boolean dispatchTouchEvent(MotionEvent event) {
         switch (event.getAction()){
             case MotionEvent.ACTION_DOWN:
-                Log.e(TAG, "dispatchTouchEvent ACTION_DOWN");
+                Log.e(TAG, "MyTextView dispatchTouchEvent ACTION_DOWN");
                 break;
 
             case MotionEvent.ACTION_MOVE:
-                Log.e(TAG, "dispatchTouchEvent ACTION_MOVE");
+                Log.e(TAG, "MyTextView dispatchTouchEvent ACTION_MOVE");
                 break;
 
             case MotionEvent.ACTION_UP:
-                Log.e(TAG, "dispatchTouchEvent ACTION_UP");
+                Log.e(TAG, "MyTextView dispatchTouchEvent ACTION_UP");
                 break;
         }
         return super.dispatchTouchEvent(event);
@@ -52,15 +52,15 @@ public class MyTextView extends TextView {
     public boolean onTouchEvent(MotionEvent event) {
         switch (event.getAction()){
             case MotionEvent.ACTION_DOWN:
-                Log.e(TAG, "onTouchEvent ACTION_DOWN");
+                Log.e(TAG, "MyTextView onTouchEvent ACTION_DOWN");
                 break;
 
             case MotionEvent.ACTION_MOVE:
-                Log.e(TAG, "onTouchEvent ACTION_MOVE");
+                Log.e(TAG, "MyTextView onTouchEvent ACTION_MOVE");
                 break;
 
             case MotionEvent.ACTION_UP:
-                Log.e(TAG, "onTouchEvent ACTION_UP");
+                Log.e(TAG, "MyTextView onTouchEvent ACTION_UP");
                 break;
         }
         return super.onTouchEvent(event);
