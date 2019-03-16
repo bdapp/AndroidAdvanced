@@ -15,6 +15,8 @@ ViewGroup是View的集合。
    3. 绘制 (`onDraw`)
    
 ## 三、onMeasure()三种测量模式
-   * UNSPECIFIED:  不指定测量模式，系统内部使用
-   * EXACTLY:      精确测量模式，当数值是match_parent或精确数值时生效
+   * UNSPECIFIED:  不指定测量模式，系统内部使用  
+   
+   * EXACTLY:      精确测量模式，当数值是match_parent或精确数值时生效  
+   
    * AT_MOST:      最大值模式，当数值是wrap_content时生效
